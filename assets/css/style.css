@@ -38,7 +38,7 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 .bg {
-  /* background-image: url(../img/11111.png); */
+  background-image: url(../img/11111.png);
   z-index: 10;
   background-size: 100%;
   background-position: -75px -187px;
@@ -139,7 +139,12 @@ h6 {
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
 }
-
+#header.header-scrolled,
+#header.header-inner-pages {
+  /* background: rgba(40, 58, 90, 0.9);
+   */
+  display: block !important;
+}
 #header .logo {
   font-size: 30px;
   margin: -30px;

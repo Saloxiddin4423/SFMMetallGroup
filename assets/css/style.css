@@ -320,6 +320,14 @@ h6 {
   .navbar ul {
     display: none;
   }
+  .bg {
+    background-image: url(../img/111211.png);
+    z-index: 10;
+    background-size: 100%;
+    background-position: -75px -187px;
+    /* opacity: 0.5 !important; */
+    background-repeat: no-repeat !important;
+  }
 }
 
 .navbar-mobile {

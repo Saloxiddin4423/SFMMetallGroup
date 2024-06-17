@@ -18,7 +18,7 @@ let bitzer = document.getElementById("bitzer");
 let vk = document.getElementById("vk");
 let faoliyati = document.getElementById("faoliyati");
 let faoliyatiText = document.getElementById("faoliyatiText");
-let services = document.getElementById("services");
+let servicesss = document.getElementById("servicesss");
 let intro = document.getElementById("intro");
 let faq = document.getElementById("faq");
 let info = document.getElementById("info");
@@ -34,7 +34,7 @@ function lenguage() {
   if (lenguageValue.value == "1") {
     home.innerHTML = "Bosh sahifa";
     about.innerHTML = "Biz haqimizda";
-    services.innerHTML = "Xizmat ko'rsatish";
+    servicess.innerHTML = "Xizmat ko'rsatish";
     portfolio.innerHTML = "Portfolio";
     team.innerHTML = "Bizning jamoa";
     contact.innerHTML = "Biz bilan bog'lanish";
@@ -89,7 +89,8 @@ Sovutish tizimi:biznesingiz uchun siz xohlagan dizayn ko'rinishida va kerakli so
     faoliyati.innerHTML = "FAOLIYATIMIZ YO'NALISHLARI";
     faoliyatiText.innerHTML =
       "Bizning maqsadimiz - sizning talablaringizni boshqarish va sizga eng yaxshi yechimlarni taklif qilishdir.";
-    services.innerHTML = ` <div class="container" data-aos="fade-up">
+    servicesss.innerHTML = `
+     <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Bizning afzalliklarimiz</h2>
             <p>
@@ -438,7 +439,7 @@ Sovutish tizimi:biznesingiz uchun siz xohlagan dizayn ko'rinishida va kerakli so
   } else if (lenguageValue.value == "2") {
     home.innerHTML = "Home";
     about.innerHTML = "About";
-    services.innerHTML = "Services";
+    servicess.innerHTML = "Services";
     portfolio.innerHTML = "Portfolio";
     team.innerHTML = "Team";
     contact.innerHTML = "Contact";
@@ -493,7 +494,7 @@ Refrigeration system: we will provide, adapt and prepare a display cooler in the
     faoliyati.innerHTML = "AREAS OF OUR ACTIVITY";
     faoliyatiText.innerHTML =
       "Our goal is to manage your requirements and offer you the best solutions.";
-    services.innerHTML = ` <div class="container" data-aos="fade-up">
+    servicesss.innerHTML = ` <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Our advantages</h2>
             <p>
@@ -850,7 +851,7 @@ Refrigeration system: we will provide, adapt and prepare a display cooler in the
   } else if (lenguageValue.value == "3") {
     home.innerHTML = "Домашняя страница";
     about.innerHTML = "O нас";
-    services.innerHTML = "Услуги";
+    servicess.innerHTML = "Услуги";
     portfolio.innerHTML = "портфолио";
     team.innerHTML = "Команда";
     contact.innerHTML = "Контакт";
@@ -903,7 +904,7 @@ Refrigeration system: we will provide, adapt and prepare a display cooler in the
     faoliyati.innerHTML = "НАПРАВЛЕНИЯ НАШЕЙ ДЕЯТЕЛЬНОСТИ";
     faoliyatiText.innerHTML =
       "Наша цель — удовлетворить ваши требования и предложить вам лучшие решения.";
-    services.innerHTML = ` <div class="container" data-aos="fade-up">
+    servicesss.innerHTML = ` <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Наши преимущества</h2>
             <p>

@@ -65,7 +65,7 @@ Sovutish tizimi:biznesingiz uchun siz xohlagan dizayn ko'rinishida va kerakli so
                   ishlov berish
                 </li>
               </ul>
-              <a href="#" class="btn-learn-more">Ko'proq ma'lumot</a>`;
+             `;
     hamkorlar.innerHTML = ` <h3>
                   Bizning hamkorlarimiz orasida
                   <strong>Quydagi tashkilotlar mavjud</strong>

@@ -1,0 +1,27 @@
+.banner{
+    width: 100vw;
+    height: 100vh !important;
+    background-image: url("/assets//img//metall.jpg") !important;
+}
+
+.banner-text h1{
+    color: #FEB800  !important;
+    font-size: 50px !important;
+    line-height: 40px !important;
+    margin-bottom: 30px !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .banner-text h1{
+        font-size: 36px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .logo img{
+        width: 120px !important;
+    }
+}

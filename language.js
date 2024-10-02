@@ -24,7 +24,7 @@ let faq = document.getElementById("faq");
 let info = document.getElementById("info");
 let con = document.getElementById("con");
 let foot = document.getElementById("foot");
-// let bizhaqimizda = document.getElementById("bizhaqimizda");
+let sifat = document.getElementById("sifat");
 // let bizhaqimizda = document.getElementById("bizhaqimizda");
 // let bizhaqimizda = document.getElementById("bizhaqimizda");
 // let bizhaqimizda = document.getElementById("bizhaqimizda");
@@ -426,7 +426,8 @@ Sovutish tizimi:biznesingiz uchun siz xohlagan dizayn ko'rinishida va kerakli so
             </div>
           </div>
         </div>`;
-    // portfolio.innerHTML = "Portfolio";
+
+    sifat.innerHTML = "Sifat hamma narsadan ustun";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
@@ -830,7 +831,7 @@ Refrigeration system: we will provide, adapt and prepare a display cooler in the
             </div>
           </div>
         </div>`;
-    // portfolio.innerHTML = "Portfolio";
+    sifat.innerHTML = "Quality is above all";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
@@ -1240,7 +1241,7 @@ Refrigeration system: we will provide, adapt and prepare a display cooler in the
             </div>
           </div>
         </div>`;
-    // portfolio.innerHTML = "Portfolio";
+    sifat.innerHTML = "Качество превыше всего";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
     // portfolio.innerHTML = "Portfolio";
